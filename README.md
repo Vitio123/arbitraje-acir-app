@@ -33,24 +33,3 @@ Este proyecto es una propuesta de solución web desarrollada con **React** y **F
 | ![Firebase](https://img.shields.io/badge/-Firebase-FFCA28?logo=firebase&logoColor=white&style=flat-square) | Backend completo (auth, db, storage) |
 | ![MUI](https://img.shields.io/badge/-MUI-007FFF?logo=mui&logoColor=white&style=flat-square) | Componentes UI accesibles y elegantes |
 | ![React Router](https://img.shields.io/badge/-React%20Router-CA4245?logo=reactrouter&logoColor=white&style=flat-square) | Navegación entre vistas |
-
----
-
-## 🧠 Estructura del Proyecto
-
-```plaintext
-src/
-│
-├── assets/         # Imágenes y recursos estáticos
-├── components/     # Componentes reutilizables (Navbar, Sidebar, etc.)
-├── firebase/       # Configuración de Firebase y funciones de auth/db
-├── hooks/          # Custom hooks como useAuth
-├── layouts/        # Layouts principales por tipo de usuario
-├── pages/          # Páginas principales por rol
-│   ├── Admin/
-│   ├── Client/
-│   └── Arbitrator/
-├── routes/         # Configuración de rutas protegidas por rol
-├── services/       # Funciones de interacción con Firestore y Storage
-├── styles/         # Estilos globales
-└── App.jsx         # Enrutamiento general y contextos
